@@ -45,7 +45,3 @@ Desenvolvido em HTML, TailwindCSS e JavaScript, com animação de fundo, música
 2. Coloque sua música favorita no arquivo `musica.mp3` (ou edite o HTML para usar outro nome).
 3. Abra o arquivo `index.html` no navegador.
 4. Clique no botão e aproveite a surpresa! 🥳
-
----
-
-## 🙌 Feito com carinho por [Pedro Missola](mailto:missolapedro@gmail.com)
