@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #800080, #4b0082);
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+}
+
+/* Botão */
+button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #800080;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+#mensagem {
+  margin-top: 30px;
+  font-size: 1.5em;
+  animation: aparecer 1s ease forwards;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Fotos maiores e responsivas */
+#fotos-textos img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
